@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".quiz1b">
+
+
+    <LinearLayout
+        android:id="@+id/myvideoView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quiz1b"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="130dp"
+            android:background="@android:color/background_light"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/op1"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#e0e0eb"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:tag="op1"
+                android:text="functions"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/op2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#e0e0eb"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:tag="op2"
+                android:text="lower"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/op3"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#e0e0eb"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:tag="op3"
+                android:text="nervous"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/op4"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#e0e0eb"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:tag="op4"
+                android:text="eyelids"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/op5"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#e0e0eb"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:tag="op5"
+                android:text="uppers"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/op6"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#e0e0eb"
+                android:gravity="center_horizontal|center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:tag="op6"
+                android:text="nostrils"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Hands are called the"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/dest1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:tag="dest1"
+                android:text="_______________"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="limbs and legs are called the"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/dest12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:tag="dest12"
+                android:text="_______________"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="limbs."
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Nose has two small openings called"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/dest2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:tag="dest2"
+                android:text="_______________"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to breathe."
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Eyes are protected by"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/dest3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:tag="dest3"
+                android:text="_______________"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Brains and nerves from the"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/dest4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:tag="dest4"
+                android:text="_______________"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="system."
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. The various organs inside the body perfform different"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/dest5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:tag="dest5"
+                android:text="_______________"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

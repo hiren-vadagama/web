@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".quiz1d">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/myvideoView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quiz1d"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_quiz1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="8"
+                android:text="(a) We require help of upper limbs while swimming"
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sb_quiz1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/quiz_img1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/na" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_quiz2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="8"
+                android:text="(b) Neck joins the skull to the backbone."
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sb_quiz2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/quiz_img2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/na" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_quiz3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="8"
+                android:text="(c) Lungs are the part of digestive system."
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sb_quiz3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/quiz_img3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/na" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_quiz4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="8"
+                android:text="(d) Brain is situated inside the head."
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sb_quiz4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/quiz_img4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/na" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_quiz5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="8"
+                android:text="(e) Backbone supports the whole body."
+                android:textColor="@android:color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sb_quiz5"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/quiz_img5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/na" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/quiz_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                android:text="Submit"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/quiz_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                android:text="Answer"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/quiz_btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                android:text="Reset"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

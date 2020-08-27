@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Quiz1a">
+
+
+    <LinearLayout
+        android:id="@+id/myvideoView2"
+        android:orientation="vertical"
+        android:background="@drawable/quiz1a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="60dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/que1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. It joins the brain to the spinal cord ..."
+                android:textColor="@android:color/background_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/op1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(A) head"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op1a"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+
+                <TextView
+                    android:id="@+id/op1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(B) neck"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op1b"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+
+                <TextView
+                    android:id="@+id/op1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(C) upper limbs"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op1c"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/que2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Total number of bones in human body is ..."
+                android:textColor="@android:color/background_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/op2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(A) 205"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op2a"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+
+                <TextView
+                    android:id="@+id/op2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(B) 206"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op2b"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+
+                <TextView
+                    android:id="@+id/op2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(C) 211"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op2c"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/que3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Muscular system consists of ..."
+                android:textColor="@android:color/background_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/op3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(A) muscles "
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op3a"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+
+                <TextView
+                    android:id="@+id/op3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(B) bones"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op3b"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+
+                <TextView
+                    android:id="@+id/op3c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(C) Both (a) and (b)"
+                    android:textColor="@android:color/background_dark" />
+
+                <ImageView
+                    android:id="@+id/img_op3c"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/empty_1" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/off" />
+
+
+</RelativeLayout>
